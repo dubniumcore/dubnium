@@ -1,4 +1,5 @@
 // Copyright (c) 2011-2016 The Cryptonote developers
+//
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,8 +14,10 @@ namespace parameters {
 const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
+
 //TODO Currency-specific address prefix
 const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0x3f37b6;
+  
 //TODO Choose maturity period for your currency
 const size_t   CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 60;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 60 * 60 * 2;
@@ -108,8 +111,8 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "f500004781298aaf
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "dubnium.duckdns.org:268",
-  //"dubnium.duckdns.org:268",
+  "dubnium.duckdns.org:11268",
+  "seednode.duckdns.org:11268",
 };
 
 struct CheckpointData {
