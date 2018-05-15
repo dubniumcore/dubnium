@@ -77,7 +77,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "Dubnium";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001ec85afd1b101029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121018470f34267ccfa5308ea80e00115af94ac3c29d77bf1dbccadf29bc1bb3f7c0c";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
